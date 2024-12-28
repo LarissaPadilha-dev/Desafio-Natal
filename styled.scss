@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // cursor: url('./cursor/laço.png'), auto;  
+  }
+  // --------------------------------------------------------------- Header ---------------------------------------------------------------------
+  header {
+    background-color: #8B1414;
+    background-image: url('./imagens/Plano-de-fundo/fundo-de-flocos-de-neve.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18.64vh; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E4EEF1;
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    h1 {
+      font-size: 3rem;
+      font-weight: 500;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 60vw;
+    }
+    a{
+      color: #E4EEF1;
+      text-decoration: none;
+      font-size: 2.5rem;
+      &:hover {
+        color: #f82323;
+      }
+    }   
+  }
+
+.boxheader {
+    display: flex;
+    align-items: center;
+    img {
+      width: 8.5vw;
+    }
+} 
+
+// --------------------------------------------------------- Main -------------------------------------------------------------------------------
+
+.logo {
+  background-image: url('./imagens/Main/papai-noel.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 88vh;
+  width: 100%;
+ 
+}
+
+.boxNatal {
+  background-color: #8B1414;
+  background-image: url('./imagens/Plano-de-fundo/fundo-de-flocos-de-neve.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 31.91vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  p {
+    color: #E4EEF1;
+    width: 53vw;
+    font-family: "Inria Sans", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+  } 
+}
+
+.atrações {
+  background-color: #F2E2C4;
+  height: 59.55vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+
+// ------------------------------------------------------------ Footer -------------------------------------------------------------------------
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #8B1414;
+  background-image: url('./imagens/Plano-de-fundo/fundo-de-flocos-de-neve.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vh;
+}
+
+.ícones {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 15vw;
+}
+
+.texto {
+  color: #E4EEF1;
+  text-align: center;
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.presentes {
+ width: 12vw;
+}
